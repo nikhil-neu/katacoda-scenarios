@@ -7,8 +7,10 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
+        "title": "Task 1 - Add Lable",
+        "text": "1_task.md",
+        "verify": "1_verify.sh",
+        "hint": "1_hint.sh"
       }
     ],
     "intro": {
