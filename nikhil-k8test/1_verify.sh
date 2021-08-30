@@ -1,0 +1,1 @@
+kubectl get deployment demo-deployment --show-lables | grep 'env:test'
