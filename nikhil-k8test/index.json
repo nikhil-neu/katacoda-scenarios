@@ -15,8 +15,8 @@
     ],
     "intro": {
       "text": "intro.md",
-      "code": "foreground.sh",
-      "courseData": "configure.sh"
+      "foreground": "foreground.sh",
+      "background": "configure.sh"
     },
     "assets": {
       "host01": [
