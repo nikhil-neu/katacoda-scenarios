@@ -7,7 +7,7 @@
   "details": {
     "steps": [
       {
-        "title": "Task 1 - Add Lable",
+        "title": "Task 1 - Add Labels",
         "text": "1_task.md",
         "verify": "1_verify.sh",
         "hint": "1_hint.sh"
