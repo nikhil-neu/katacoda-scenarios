@@ -28,7 +28,9 @@
     }
   },
   "environment": {
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "showdashboard": true,
+    "dashboards": [{"name": "ServiceWeb", "href": "https://[[HOST_SUBDOMAIN]]-3000-[[KATACODA_HOST]].environments.katacoda.com"}]
   },
   "backend": {
     "imageid": "kubernetes-cluster-running:1.18"
