@@ -1,4 +1,5 @@
 {
+  "type": "challenge@0.7",
   "title": "KUBE TREK",
   "description": "a interesting voyage into the world of kubernetes",
   "difficulty": "Intermediate",
