@@ -6,28 +6,23 @@
   "details": {
     "steps": [
       {
-        "title": "Step 1",
-        "text": "step1.md"
-      },
-      {
-        "title": "Step 2",
-        "text": "step2.md"
-      },
-      {
-        "title": "Step 3",
-        "text": "step3.md"
-      },
-      {
-        "title": "Step 4",
-        "text": "step4.md"
-      },
-      {
-        "title": "Step 5",
-        "text": "step5.md"
+        "title": "Task 1 - Add Labels",
+        "text": "1_task.md",
+        "verify": "1_verify.sh",
+        "hint": "1_hint.sh"
       }
     ],
     "intro": {
-      "text": "intro.md"
+      "text": "intro.md",
+      "foreground": "foreground.sh",
+      "background": "configure.sh"
+    },
+    "assets": {
+      "host01": [
+          {"file": "humans.yaml", "target": "/opt/"},
+          {"file": "klingons.yaml", "target": "/opt/"},
+          {"file": "vulcans.yaml", "target": "/opt/"}
+      ]
     },
     "finish": {
       "text": "finish.md"

@@ -1,0 +1,1 @@
+kubectl get pods -n species humans --show-labels | grep test
