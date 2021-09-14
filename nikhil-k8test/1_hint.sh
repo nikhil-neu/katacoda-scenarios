@@ -7,5 +7,5 @@ fi
 
 if [ $seconds_sofar -ge 60 ]; then
   echo "Hint: try running the command:"
-  echo "use kubectl label deployment demo-deployment test:env "
+  echo "use kubectl label deployment demo-deployment env:test "
 fi
