@@ -20,9 +20,7 @@
     },
     "assets": {
       "host01": [
-          {"file": "humans.yaml", "target": "/opt/"},
-          {"file": "klingons.yaml", "target": "/opt/"},
-          {"file": "vulcans.yaml", "target": "/opt/"}
+          {"file": "species", "target": "/opt/"}
       ]
     },
     "finish": {
