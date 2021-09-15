@@ -30,7 +30,9 @@
     }
   },
   "environment": {
-    "showide": true
+    "showide": true,
+    "idePort": 23000,
+    "uilayout": "terminal"
   },
   "backend": {
     "imageid": "kubernetes-cluster-running:1.18"
