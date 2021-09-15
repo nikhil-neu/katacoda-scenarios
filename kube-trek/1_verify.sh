@@ -1,1 +1,1 @@
-kubectl get pods -n species humans --show-labels | grep test
+kubectl get pods -n species --show-labels | grep 5618 \| 3259 \| 5008
