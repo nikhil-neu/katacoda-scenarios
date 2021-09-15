@@ -1,9 +1,8 @@
 launch.sh
-sleep 120
 kubectl create ns species
-kubectl apply -f /opt/humans.yaml
-kubectl apply -f /opt/vulcans.yaml
-kubectl apply -f /opt/klingons.yaml
+kubectl apply -f /root/humans.yaml
+kubectl apply -f /root/vulcans.yaml
+kubectl apply -f /root/klingons.yaml
 
 
 echo "Started" 
