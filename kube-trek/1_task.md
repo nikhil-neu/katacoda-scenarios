@@ -1,1 +1,1 @@
-Label all the pods inside the species
+Label all the pods inside the species namespace with their Borg species number
