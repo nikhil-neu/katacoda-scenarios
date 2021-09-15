@@ -1,6 +1,6 @@
 launch.sh
 kubectl create ns species
-kubectl apply -f /opt/species/
+kubectl apply -f /opt/
 rm -rf /opt/species
 
 echo "Started" 
