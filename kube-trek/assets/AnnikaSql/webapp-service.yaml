@@ -1,7 +1,7 @@
 kind: Service
 apiVersion: v1
 metadata:
-  name: annika-service
+  name: annikasql-service
   namespace: annika
 spec:
   selector:
