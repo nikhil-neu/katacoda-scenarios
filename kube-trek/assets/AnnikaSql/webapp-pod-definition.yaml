@@ -2,13 +2,14 @@ apiVersion: v1
 kind: Pod
 metadata:
   name: annika
+  namespace: annika
   labels:
     app: whatsmyname
     name: annika
 spec:
   containers:
   - name: annika
-    image: nikhilrjn/annika:1.1
+    image: nikhilrjn/annikasql:1.0
     ports:
     - containerPort: 8080
     volumeMounts:
