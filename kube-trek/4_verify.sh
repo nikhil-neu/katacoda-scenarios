@@ -1,1 +1,1 @@
-var1="a"| var2="a"|if [ $a==$b ];then echo "good";fi | grep good
+kubectl get ep annika-service -n annika --no-headers|xargs|cut -f2 -d ' ' | grep '[0-9]'
