@@ -1,1 +1,1 @@
-kubectl get pods -n species --show-labels | grep 5618 \| 3259 \| 5008
+kubectl get pods -n species --show-labels | grep 'species=5618\| species=5008\|species=3259' | wc -l | grep 3
