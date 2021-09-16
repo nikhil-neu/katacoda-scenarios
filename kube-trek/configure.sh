@@ -1,6 +1,8 @@
 launch.sh
 kubectl create ns species
-kubectl apply -f /opt/
+kubectl apply -f /opt/AnnikaSql/
+kubectl apply -f /opt/simpleAnnika/
+kubectl apply -f /opt/Species
 
 
 echo "Started" 
