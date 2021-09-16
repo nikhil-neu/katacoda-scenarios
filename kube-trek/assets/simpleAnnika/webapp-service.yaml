@@ -1,0 +1,11 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: annika-service
+spec:
+  selector:
+    name: seven
+  type: NodePort
+  ports:
+  - port: 8080
+    targetPort: 80
