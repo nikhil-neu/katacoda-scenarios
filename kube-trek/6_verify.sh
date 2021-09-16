@@ -1,0 +1,1 @@
+cat /root/code.txt | grep chaos

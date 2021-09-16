@@ -5,13 +5,7 @@
   "difficulty": "Intermediate",
   "time": "60 minutes",
   "details": {
-    "steps": [
-      {
-        "title": "Task 4 - Fix Annika",
-        "text": "4_task.md",
-        "verify": "4_verify.sh",
-        "hint": "4_hint.sh"
-      },
+    "steps": [ 
       {
         "title": "Task 1 - Add Labels",
         "text": "1_task.md",
@@ -31,10 +25,22 @@
         "hint": "3_hint.sh"
       },
       {
+        "title": "Task 4 - Fix Annika",
+        "text": "4_task.md",
+        "verify": "4_verify.sh",
+        "hint": "4_hint.sh"
+      },
+      {
         "title": "Task 5 - Find the secret",
         "text": "5_task.md",
         "verify": "5_verify.sh",
         "hint": "5_hint.sh"
+      },
+      {
+        "title": "Task 6 - Crack the Code",
+        "text": "6_task.md",
+        "verify": "6_verify.sh",
+        "hint": "6_hint.sh"
       }
     ],
     "intro": {
@@ -56,7 +62,8 @@
     "idePort": 23000,
     "uilayout": "terminal",
     "showdashboard": true,
-    "dashboards": [{"name": "ServiceWeb", "href": "https://[[HOST_SUBDOMAIN]]-30080-[[KATACODA_HOST]].environments.katacoda.com"}]
+    "dashboards": [{"name": "AnnikaWeb", "href": "https://[[HOST_SUBDOMAIN]]-30080-[[KATACODA_HOST]].environments.katacoda.com"},
+                   {"name": "AnnikaSqlWeb", "href": "https://[[HOST_SUBDOMAIN]]-30060-[[KATACODA_HOST]].environments.katacoda.com"}]
   },
   "backend": {
     "imageid": "kubernetes-cluster-running:1.18"

@@ -1,0 +1,1 @@
+Crack this code , and then write the answer by creating a file called as code.txt under root directory
