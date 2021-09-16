@@ -1,0 +1,1 @@
+Each of Species Pods have an in-built stressor. Configure these pods such their memory consumption is in the order vulcans > humans > klingons
