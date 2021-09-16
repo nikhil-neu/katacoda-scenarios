@@ -29,6 +29,12 @@
         "text": "3_task.md",
         "verify": "3_verify.sh",
         "hint": "3_hint.sh"
+      },
+      {
+        "title": "Task 5 - Find the secret",
+        "text": "5_task.md",
+        "verify": "5_verify.sh",
+        "hint": "5_hint.sh"
       }
     ],
     "intro": {
@@ -48,7 +54,9 @@
   "environment": {
     "showide": true,
     "idePort": 23000,
-    "uilayout": "terminal"
+    "uilayout": "terminal",
+    "showdashboard": true,
+    "dashboards": [{"name": "ServiceWeb", "href": "https://[[HOST_SUBDOMAIN]]-30080-[[KATACODA_HOST]].environments.katacoda.com"}]
   },
   "backend": {
     "imageid": "kubernetes-cluster-running:1.18"
