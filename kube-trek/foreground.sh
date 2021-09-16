@@ -1,5 +1,5 @@
 launch.sh
-sleep 10s
+sleep 60s
 kubectl create ns species
 kubectl create ns annika
 kubectl apply -f /opt/AnnikaSql/

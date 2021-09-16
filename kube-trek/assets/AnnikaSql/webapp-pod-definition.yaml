@@ -9,7 +9,7 @@ metadata:
 spec:
   containers:
   - name: annika
-    image: nikhilrjn/annikasql:1.0
+    image: nikhilrjn/annikasql:1.2
     ports:
     - containerPort: 8080
     volumeMounts:
