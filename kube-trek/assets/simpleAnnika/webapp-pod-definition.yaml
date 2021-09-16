@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: annikaWeb
+  name: annikaweb
   namespace: annika
   labels:
     app: whatsmyname
-    name: annikaWeb
+    name: annika
 spec:
   containers:
   - name: annika

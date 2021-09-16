@@ -5,7 +5,7 @@ metadata:
   namespace: annika
 spec:
   selector:
-    name: annika
+    name: annikawebsql
   type: NodePort
   ports:
   - port: 8080
