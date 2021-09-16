@@ -1,11 +1,11 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: annika
+  name: annikaWebSql
   namespace: annika
   labels:
-    app: whatsmyname
-    name: annika
+    app: whatsmysecret
+    name: annikaWebSql
 spec:
   containers:
   - name: annika
