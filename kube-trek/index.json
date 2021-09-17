@@ -1,7 +1,7 @@
 {
   "type": "challenge@0.7",
   "title": "KUBE TREK",
-  "description": "a interesting voyage into the world of kubernetes",
+  "description": "A voyage into the world of kubernetes",
   "difficulty": "Intermediate",
   "time": "60 minutes",
   "details": {
