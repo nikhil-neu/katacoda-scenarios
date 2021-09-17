@@ -1,1 +1,1 @@
-kubectl get secret app-secret -o jsonpath="{.data.DB_Password}" | base64 --decode|grep 'sevenofnine'
+kubectl get secret -n annika app-secret -o jsonpath="{.data.DB_Password}" | base64 --decode|grep 'sevenofnine'
