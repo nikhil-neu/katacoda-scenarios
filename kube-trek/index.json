@@ -7,12 +7,6 @@
   "details": {
     "steps": [ 
       {
-        "title": "Task 3 - Stress the Species",
-        "text": "3_task.md",
-        "verify": "3_verify.sh",
-        "hint": "3_hint.sh"
-      },
-      {
         "title": "Task 1 - Add Labels",
         "text": "1_task.md",
         "verify": "1_verify.sh",
@@ -23,6 +17,12 @@
         "text": "2_task.md",
         "verify": "2_verify.sh",
         "hint": "2_hint.sh"
+      },
+      {
+        "title": "Task 3 - Stress the Species",
+        "text": "3_task.md",
+        "verify": "3_verify.sh",
+        "hint": "3_hint.sh"
       },
       {
         "title": "Task 4 - Fix Annika",
