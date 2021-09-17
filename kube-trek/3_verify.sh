@@ -1,1 +1,1 @@
-kubectl top pods -n species --sort-by=memory --no-headers=true | cut -f1 -d ' '| tr "\n" "," |grep 'vulcans,humans'
+kubectl top pods -n species --sort-by=memory --no-headers=true |cut -f1 -d ' '|tr "\n" ","|grep 'vulcans,humans,klingons'
