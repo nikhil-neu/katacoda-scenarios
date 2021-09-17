@@ -1,1 +1,1 @@
-cat species.txt | grep 'vulcans,humans,species'
+cat species.txt | grep 'vulcans,humans,klingons,'
